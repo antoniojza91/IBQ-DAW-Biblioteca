@@ -1,0 +1,17 @@
+# putty.exe -ssh usuario@IP -pw "password" -m "deploy.sh"
+
+cd /tmp
+git clone https://github.com/-.git
+
+cd biblioteca
+cd build
+mv classes ../WebContent/WEB-INF
+cd ..
+cd src
+mv META-INF/* ../WebContent/WEB-INF/clases/
+cd ..
+cd WebContent
+
+echo "password" | sudo -S jar -cvf /opt/tomcat/webapps/Biblioteca.war *
+
+echo "password " | sudo -S rm -rf /tmp/biblioteca

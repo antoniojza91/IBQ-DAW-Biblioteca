@@ -8,7 +8,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Biblioteca</title>
-<link rel="stylesheet/css" href="css/styles.css">
+<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
@@ -25,7 +25,7 @@
 	<table>
    		<tr>
           <th><b>ISBN</b></th>
-          <th><b>Título</b></th>
+          <th><b>TÃ­tulo</b></th>
           <th><b>Autor</b></th>
          </tr>
          <% ArrayList<Libro> libros=(ArrayList<Libro>)request.getAttribute("libros");
@@ -48,7 +48,7 @@
 	    <label for="isbn">ISBN</label>
 	    <input type="text" id="isbn" name="isbn" placeholder="ISBN..">
 
-	    <label for="titulo">Título</label>
+	    <label for="titulo">TÃ­tulo</label>
 	    <input type="text" id="titulo" name="titulo" placeholder="Titulo..">
 
 	    <label for="autor">Autor</label>
@@ -60,4 +60,3 @@
 
 </body>
 </html>
-
