@@ -8,7 +8,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Biblioteca</title>
-<link rel="stylesheet/css" href="css/styles.css">
+<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
@@ -60,4 +60,3 @@
 
 </body>
 </html>
-
